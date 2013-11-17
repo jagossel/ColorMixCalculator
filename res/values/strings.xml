@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Color Mix Calculator</string>
+	<string name="color1">First Color</string>
+	<string name="color2">Second Color</string>
+	<string name="redInput">Red</string>
+	<string name="greenInput">Green</string>
+	<string name="blueInput">Blue</string>
+	<string name="colorMixType">Mix Type:</string>
+	<string name="colorMixTypePrompt">Select mix type...</string>
+	<string name="mixColors">Mix Colors</string>
+	<string name="result">Result</string>
+	<string name="addColors">Add Colors</string>
+	<string name="subtractColors">Subtract Colors</string>
+	<string name="andColors">AND Colors</string>
+	<string name="orColors">OR Colors</string>
+	<string name="xorColors">XOR Colors</string>
+	
+</resources>

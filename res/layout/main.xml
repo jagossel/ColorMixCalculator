@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TableLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:stretchColumns="1">
+		<TableRow
+			android:gravity="center_vertical">
+			<TextView
+				android:layout_span="3"
+				android:gravity="center_horizontal"
+				android:text="@string/color1" />
+		</TableRow>
+		<TableRow
+			android:gravity="center_vertical">
+			<TextView
+				android:gravity="right|center_vertical"
+				android:text="@string/redInput"
+				android:padding="10dip" />
+			<SeekBar
+				android:id="@+id/red1Input"
+				android:max="255" />
+			<TextView
+				android:id="@+id/red1Output"
+				android:gravity="right|center_vertical"
+				android:text="0"
+				android:padding="10dip" />
+		</TableRow>
+		<TableRow
+			android:gravity="center_vertical">
+			<TextView
+				android:gravity="right|center_vertical"
+				android:text="@string/greenInput"
+				android:padding="10dip" />
+			<SeekBar
+				android:id="@+id/green1Input"
+				android:max="255" />
+			<TextView
+				android:id="@+id/green1Output"
+				android:gravity="right|center_vertical"
+				android:text="0"
+				android:padding="10dip" />
+		</TableRow>
+		<TableRow
+			android:gravity="center_vertical">
+			<TextView
+				android:gravity="right|center_vertical"
+				android:text="@string/blueInput"
+				android:padding="10dip" />
+			<SeekBar
+				android:id="@+id/blue1Input"
+				android:max="255" />
+			<TextView
+				android:id="@+id/blue1Output"
+				android:gravity="right|center_vertical"
+				android:text="0"
+				android:padding="10dip" />
+		</TableRow>
+		<TableRow>
+			<ImageView
+				android:id="@+id/color1Preview"
+				android:layout_span="3"
+				android:layout_width="fill_parent"
+				android:layout_height="32dip" />
+		</TableRow>
+		<TableRow
+			android:gravity="center_vertical">
+			<TextView
+				android:layout_span="3"
+				android:gravity="center_horizontal"
+				android:text="@string/color2" />
+		</TableRow>
+		<TableRow
+			android:gravity="center_vertical">
+			<TextView
+				android:gravity="right|center_vertical"
+				android:text="@string/redInput"
+				android:padding="10dip" />
+			<SeekBar
+				android:id="@+id/red2Input"
+				android:max="255" />
+			<TextView
+				android:id="@+id/red2Output"
+				android:gravity="right|center_vertical"
+				android:text="0"
+				android:padding="10dip" />
+		</TableRow>
+		<TableRow
+			android:gravity="center_vertical">
+			<TextView
+				android:gravity="right|center_vertical"
+				android:text="@string/greenInput"
+				android:padding="10dip" />
+			<SeekBar
+				android:id="@+id/green2Input"
+				android:max="255" />
+			<TextView
+				android:id="@+id/green2Output"
+				android:gravity="right|center_vertical"
+				android:text="0"
+				android:padding="10dip" />
+		</TableRow>
+		<TableRow
+			android:gravity="center_vertical">
+			<TextView
+				android:gravity="right|center_vertical"
+				android:text="@string/blueInput"
+				android:padding="10dip" />
+			<SeekBar
+				android:id="@+id/blue2Input"
+				android:max="255" />
+			<TextView
+				android:id="@+id/blue2Output"
+				android:gravity="right|center_vertical"
+				android:text="0"
+				android:padding="10dip" />
+		</TableRow>
+		<TableRow>
+			<ImageView
+				android:id="@+id/color2Preview"
+				android:layout_span="3"
+				android:layout_width="fill_parent"
+				android:layout_height="32dip" />
+		</TableRow>
+		<TableRow
+			android:gravity="center_vertical">
+			<TextView
+				android:gravity="right|center_vertical"
+				android:text="@string/colorMixType"
+				android:padding="10dip" />
+			<Spinner
+				android:id="@+id/colorMixType"
+				android:layout_span="2"
+				android:prompt="@string/colorMixTypePrompt" />
+		</TableRow>
+		<TableRow>
+			<Button
+				android:layout_span="3"
+				android:layout_width="fill_parent"
+				android:text="@string/mixColors"
+				android:onClick="mixColors" />
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:layout_span="3"
+				android:gravity="center"
+				android:text="@string/result" />
+		</TableRow>
+		<TableRow>
+			<ImageView
+				android:id="@+id/color1Result"
+				android:layout_span="3"
+				android:layout_width="fill_parent"
+				android:layout_height="32dip" />
+		</TableRow>
+		<TableRow>
+			<ImageView
+				android:id="@+id/colorMixResult"
+				android:layout_span="3"
+				android:layout_width="fill_parent"
+				android:layout_height="32dip" />
+		</TableRow>
+		<TableRow>
+			<ImageView
+				android:id="@+id/color2Result"
+				android:layout_span="3"
+				android:layout_width="fill_parent"
+				android:layout_height="32dip" />
+		</TableRow>
+	</TableLayout>
+</ScrollView>
