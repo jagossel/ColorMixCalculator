@@ -11,12 +11,12 @@ import org.logicallycreative.colormixcalculator.colormixer.*;
 
 public class MainActivity extends Activity
 {
-    /** Called when the activity is first created. */
-    @Override
-    public void onCreate(Bundle savedInstanceState)
+	/** Called when the activity is first created. */
+	@Override
+	public void onCreate(Bundle savedInstanceState)
 	{
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.main);
 
 		setSeekBarListeners(R.id.red1Input, R.id.red1Output);
 		setSeekBarListeners(R.id.green1Input, R.id.green1Output);
@@ -26,7 +26,7 @@ public class MainActivity extends Activity
 		setSeekBarListeners(R.id.blue2Input, R.id.blue2Output);
 		
 		addColorMixOptions();
-    }
+	}
 
 	public void mixColors(View sender)
 	{
