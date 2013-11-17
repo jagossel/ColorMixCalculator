@@ -8,7 +8,7 @@
 	<string name="greenInput">Green</string>
 	<string name="blueInput">Blue</string>
 	<string name="colorMixType">Mix Type:</string>
-	<string name="colorMixTypePrompt">Select mix type...</string>
+	<string name="colorMixTypePrompt">Select mix type&#8230;</string>
 	<string name="mixColors">Mix Colors</string>
 	<string name="result">Result</string>
 	<string name="addColors">Add Colors</string>
@@ -16,5 +16,10 @@
 	<string name="andColors">AND Colors</string>
 	<string name="orColors">OR Colors</string>
 	<string name="xorColors">XOR Colors</string>
+	<string name="firstColorPreview">Preview of the first color.</string>
+	<string name="secondColorPreview">Preview of the second color.</string>
+	<string name="firstColorResult">The first color to be mixed in.</string>
+	<string name="secondColorResult">The second color to be mixed in.</string>
+	<string name="mixedColorResult">The result when mixing the two colors.</string>
 	
 </resources>

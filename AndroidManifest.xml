@@ -6,14 +6,15 @@
 
     <uses-sdk 
         android:minSdkVersion="8" 
-        android:targetSdkVersion="11" />
+        android:targetSdkVersion="19" />
 
     <application
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name" >
+        android:label="@string/app_name"
+		android:allowBackup="false">
         <activity
             android:label="@string/app_name"
-            android:name=".MainActivity" >
+            android:name=".MainActivity">
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
 

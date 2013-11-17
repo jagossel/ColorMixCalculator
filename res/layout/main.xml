@@ -25,7 +25,6 @@
 			<TextView
 				android:id="@+id/red1Output"
 				android:gravity="right|center_vertical"
-				android:text="0"
 				android:padding="10dip" />
 		</TableRow>
 		<TableRow
@@ -40,7 +39,6 @@
 			<TextView
 				android:id="@+id/green1Output"
 				android:gravity="right|center_vertical"
-				android:text="0"
 				android:padding="10dip" />
 		</TableRow>
 		<TableRow
@@ -55,7 +53,6 @@
 			<TextView
 				android:id="@+id/blue1Output"
 				android:gravity="right|center_vertical"
-				android:text="0"
 				android:padding="10dip" />
 		</TableRow>
 		<TableRow>
@@ -63,7 +60,8 @@
 				android:id="@+id/color1Preview"
 				android:layout_span="3"
 				android:layout_width="fill_parent"
-				android:layout_height="32dip" />
+				android:layout_height="32dip"
+				android:contentDescription="@string/firstColorPreview" />
 		</TableRow>
 		<TableRow
 			android:gravity="center_vertical">
@@ -84,7 +82,6 @@
 			<TextView
 				android:id="@+id/red2Output"
 				android:gravity="right|center_vertical"
-				android:text="0"
 				android:padding="10dip" />
 		</TableRow>
 		<TableRow
@@ -99,7 +96,6 @@
 			<TextView
 				android:id="@+id/green2Output"
 				android:gravity="right|center_vertical"
-				android:text="0"
 				android:padding="10dip" />
 		</TableRow>
 		<TableRow
@@ -114,7 +110,6 @@
 			<TextView
 				android:id="@+id/blue2Output"
 				android:gravity="right|center_vertical"
-				android:text="0"
 				android:padding="10dip" />
 		</TableRow>
 		<TableRow>
@@ -122,7 +117,8 @@
 				android:id="@+id/color2Preview"
 				android:layout_span="3"
 				android:layout_width="fill_parent"
-				android:layout_height="32dip" />
+				android:layout_height="32dip"
+				android:contentDescription="@string/secondColorPreview" />
 		</TableRow>
 		<TableRow
 			android:gravity="center_vertical">
@@ -153,21 +149,24 @@
 				android:id="@+id/color1Result"
 				android:layout_span="3"
 				android:layout_width="fill_parent"
-				android:layout_height="32dip" />
+				android:layout_height="32dip"
+				android:contentDescription="@string/firstColorResult" />
 		</TableRow>
 		<TableRow>
 			<ImageView
 				android:id="@+id/colorMixResult"
 				android:layout_span="3"
 				android:layout_width="fill_parent"
-				android:layout_height="32dip" />
+				android:layout_height="32dip"
+				android:contentDescription="@string/mixedColorResult" />
 		</TableRow>
 		<TableRow>
 			<ImageView
 				android:id="@+id/color2Result"
 				android:layout_span="3"
 				android:layout_width="fill_parent"
-				android:layout_height="32dip" />
+				android:layout_height="32dip"
+				android:contentDescription="@string/secondColorResult" />
 		</TableRow>
 	</TableLayout>
 </ScrollView>

@@ -112,7 +112,7 @@ public class MainActivity extends Activity
 	{
 		Spinner colorMixOptions = (Spinner)findViewById(R.id.colorMixType);
 
-		//TODO: Is there a better way of getting a resource string without passing the string or the Contex itself?
+		//TODO: Is there a better way of getting a resource string without passing the string or the Context itself?
 		ArrayAdapter<ColorMixable> optionsArrayAdapter = new ArrayAdapter<ColorMixable>(this, android.R.layout.simple_spinner_item);
 		optionsArrayAdapter.add(new AddColorMixer(getResources().getString(R.string.addColors)));
 		optionsArrayAdapter.add(new SubtractColorMixer(getResources().getString(R.string.subtractColors)));
