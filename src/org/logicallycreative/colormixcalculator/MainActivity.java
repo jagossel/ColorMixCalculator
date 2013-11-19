@@ -119,6 +119,7 @@ public class MainActivity extends Activity
 		optionsArrayAdapter.add(new AndColorMixer(getResources().getString(R.string.andColors)));
 		optionsArrayAdapter.add(new OrColorMixer(getResources().getString(R.string.orColors)));
 		optionsArrayAdapter.add(new XorColorMixer(getResources().getString(R.string.xorColors)));
+		optionsArrayAdapter.add(new AverageColorMixer(getResources().getString(R.string.averageColors)));
 		
 		colorMixOptions.setAdapter(optionsArrayAdapter);
 	}
