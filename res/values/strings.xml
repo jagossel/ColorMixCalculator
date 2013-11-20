@@ -17,6 +17,8 @@
 	<string name="orColors">OR Colors</string>
 	<string name="xorColors">XOR Colors</string>
 	<string name="averageColors">Average Colors</string>
+	<string name="minColors">Minimum Colors</string>
+	<string name="maxColors">Maximum Colors</string>
 	<string name="firstColorPreview">Preview of the first color.</string>
 	<string name="secondColorPreview">Preview of the second color.</string>
 	<string name="firstColorResult">The first color to be mixed in.</string>
