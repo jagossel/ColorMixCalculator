@@ -11,14 +11,22 @@ public class SubtractColorMixer implements ColorMixable
 
 	public ColorData mixColors(ColorData first, ColorData second)
 	{
-		int red = first.red - second.red;
-		int green = first.green - second.green;
-		int blue = first.blue - second.blue;
+		int maxRed = Math.max(first.red, second.red);
+		int maxGreen = Math.max(first.green, second.green);
+		int maxBlue = Math.max(first.blue, second.blue);
+		
+		int minRed = Math.min(first.red, second.red);
+		int minGreen = Math.min(first.green, second.green);
+		int minBlue = Math.min(first.blue, second.blue);
+		
+		int red = maxRed - minRed;
+		int green = maxGreen - minGreen;
+		int blue = maxBlue - minBlue;
 		
 		ColorData mixedColor = new ColorData();
-		mixedColor.red = Math.max(0, red);
-		mixedColor.green = Math.max(0, green);
-		mixedColor.blue = Math.max(0, blue);
+		mixedColor.red = red;
+		mixedColor.green = green;
+		mixedColor.blue = blue;
 		
 		return mixedColor;
 	}
